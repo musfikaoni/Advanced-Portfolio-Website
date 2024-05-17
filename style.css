@@ -510,46 +510,93 @@ ul a {
     word-spacing: 2px;
 }
 .boxh {
-    width: 41.5%;
+    width: 100%;
     margin-top: 100px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxh p {
+    padding: 15px 53% 15px 30px;
     font-weight: 300;
 }
 .boxc {
-    width: 41.5%;
+    width: 100%;
     margin-top: 50px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxc p {
+    padding: 15px 53% 15px 30px;
     font-weight: 300;
 }
 .boxja {
-    width: 41.5%;
+    width: 100%;
     margin-top: 50px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxja p {
+    padding: 15px 53% 15px 30px;
     font-weight: 300;
 }
 .boxep {
-    width: 41.5%;
+    width: 100%;
     margin-top: 100px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxep p {
+    padding: 15px 53% 15px 30px;
     font-weight: 300;
 }
 .boxpho {
-    width: 41.5%;
+    width: 100%;
     margin-top: 50px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxpho p {
+    padding: 15px 53% 15px 30px;
     font-weight: 300;
 }
 .boxfi {
-    width: 41.5%;
+    width: 100%;
     margin-top: 50px;
-    padding: 15px 53% 30px 30px;
     background-color: #151C25;
+}
+.boxfi p {
     font-weight: 300;
+    padding: 15px 53% 15px 30px;
+}
+
+.anime{
+    width: 350px;
+    height: 7px;
+    animation: anime 2s linear 1s infinite normal;
+}
+
+@keyframes anime {
+   0%{
+        width: 50px;      
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    25%{
+        width: 150px;
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    50%{
+        width: 250px;
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    
+    100%{
+        width: 350px;
+        transform: translate(0px);
+        background-color: #00d084;
+        
+    }
+
 }
 /* section-6 Area */
 .sc6 {
